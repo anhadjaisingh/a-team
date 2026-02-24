@@ -1,0 +1,24 @@
+{
+  "name": "a-team",
+  "owner": {
+    "name": "Anhad Jai Singh"
+  },
+  "metadata": {
+    "description": "Team-driven development plugin for Claude Code agent teams"
+  },
+  "plugins": [
+    {
+      "name": "a-team",
+      "description": "Team-driven development: orchestrate Claude Code agent teams to execute plans in parallel with PR-based workflows",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Anhad Jai Singh"
+      },
+      "repository": "https://github.com/anhadjaisingh/a-team",
+      "license": "MIT",
+      "keywords": ["agent-teams", "orchestration", "parallel-development", "pr-workflow"],
+      "category": "productivity"
+    }
+  ]
+}
