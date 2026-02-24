@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "TeammateIdle": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash '${CLAUDE_PLUGIN_ROOT}/hooks/teammate-idle.sh'",
+            "async": false
+          }
+        ]
+      }
+    ],
+    "TaskCompleted": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash '${CLAUDE_PLUGIN_ROOT}/hooks/task-completed.sh'",
+            "async": false
+          }
+        ]
+      }
+    ]
+  }
+}
